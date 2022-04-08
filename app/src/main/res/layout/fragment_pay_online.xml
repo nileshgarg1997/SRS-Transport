@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".fragments.PayOnlineFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alegreya_bold_italic"
+            android:gravity="center"
+            android:text="Find Fee and Pay Online"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/alegreya_italic"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Please provide some details for fetching the fee status of your ward."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/alegreya_italic"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="(All fields are mandatory)"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/registeredMobileNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:fontFamily="@font/alegreya_italic"
+                    android:hint="Registered Mobile No"
+                    android:inputType="number"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/routeNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:fontFamily="@font/alegreya_italic"
+                    android:hint="Route No"
+                    android:inputType="text"
+                    android:textStyle="bold" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/outline_box"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinnerStudentName"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/outline_box"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinnerAcademicYear"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/outline_box"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinnerMonth"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="10dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/checkFeeStatusBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:padding="10dp"
+                android:fontFamily="@font/alegreya_italic"
+                android:text="Check Fee Status"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SRS Transport</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="school_info1">S.R.S Public School was established by the SR
+education society in 1999, to provide high caliber
+education, on CBSE/NCERT syllabi guidelines,
+comparable with the best public school in the
+country in the course of its relatively brief history
+the school has grow strength to strength. Starting
+with primary classes only, S.R.S. in now a full fledge
+senior secondary school. Thanks to the hard work
+and determination of the society and the school
+staff, as well as the precious support of parents
+and well-wishers, there has been no stopping S.R.S
+today, it is happily running to full capacity, at full
+steam! And allegiant new building with all modern
+amenities has come up to house one branch of our
+progressive school.</string>
+
+    <string name="school_info3">In short, a student at S.R.S. Public School develops
+a multifaceted personality that make him/her ready
+face the challenges of life and future.</string>
+
+</resources>

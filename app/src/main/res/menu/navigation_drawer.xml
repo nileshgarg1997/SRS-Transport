@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_myProfile"
+        android:title="My Profile"
+        android:icon="@drawable/admin_icon"/>
+
+    <item android:id="@+id/navigation_website"
+        android:title="Our Website"
+        android:icon="@drawable/website"/>
+
+    <item android:id="@+id/navigation_share"
+        android:title="Share"
+        android:icon="@drawable/share"/>
+
+    <item android:id="@+id/navigation_rateus"
+        android:title="Rate Us"
+        android:icon="@drawable/rateus"/>
+
+    <item android:id="@+id/navigation_developer"
+        android:title="Our Developer"
+        android:icon="@drawable/developer"/>
+
+    <item android:id="@+id/navigation_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"/>
+</menu>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dev_bg"
+    tools:context=".DeveloperActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alegreya_bold_italic"
+            android:gravity="center"
+            android:text="OUR DEVELOPER"
+            android:textColor="#EEF3EB"
+            android:textSize="25sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"
+            android:layout_marginVertical="8dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/avatar_image"
+            android:layout_gravity="center"
+            android:id="@+id/myProfilePic"
+            android:layout_marginTop="36dp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"
+            android:layout_marginTop="25dp"/>
+<!--            android:layout_marginVertical="8dp"/>-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nilesh Garg"
+            android:textAlignment="center"
+            android:textColor="#100F0F"
+            android:textSize="30sp"
+            android:fontFamily="@font/alegreya_bold_italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Developer at GTechnosoft"
+            android:textAlignment="center"
+            android:textColor="#100F0F"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:fontFamily="@font/alegreya_bold_italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"
+            android:layout_marginVertical="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alegreya_bold_italic"
+            android:gravity="center"
+            android:text="SOCIAL HANDLES"
+            android:textColor="#EEF3EB"
+            android:textSize="25sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"
+            android:layout_marginVertical="8dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Instagram Id: "
+                android:layout_marginTop="10dp"
+                android:textColor="#100F0F"
+                android:textSize="30sp"
+                android:fontFamily="@font/alegreya_bold_italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.instagram.com/nileshgarg1997?r=nametag"
+                android:textColor="#100F0F"
+                android:onClick="instaclick"
+                android:layout_marginLeft="5dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/alegreya_italic"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LinkedIn Profile: "
+                android:layout_marginTop="10dp"
+                android:textColor="#100F0F"
+                android:textSize="30sp"
+                android:fontFamily="@font/alegreya_bold_italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.linkedin.com/in/nilesh-garg-7ab3181b2"                android:textColor="#100F0F"
+                android:layout_marginLeft="5dp"
+                android:onClick="linkedinclick"
+                android:textSize="18sp"
+                android:fontFamily="@font/alegreya_italic"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

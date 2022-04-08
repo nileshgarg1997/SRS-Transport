@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "133499469838",
+    "project_id": "srs-transport",
+    "storage_bucket": "srs-transport.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133499469838:android:08adfc734441a1608b3c5f",
+        "android_client_info": {
+          "package_name": "com.myapp.srstransport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133499469838-8ic74rrod4qqbsuoprm983g8tov414bn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOK7zpkL0PbhpKoDeE_drAyRz8vH5VwoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133499469838-8ic74rrod4qqbsuoprm983g8tov414bn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

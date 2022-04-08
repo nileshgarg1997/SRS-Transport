@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="WELCOME TO SRS TRANSPORT"
+                android:fontFamily="@font/alegreya_bold_italic"
+                android:textAlignment="center"
+                android:textColor="#EEF3EB"
+                android:textSize="25sp" />
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/alegreya_bold_italic"
+                android:padding="5dp"
+                android:text="About School"
+                android:textColor="#FFFF"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:fontFamily="@font/alegreya_italic"
+                android:text="@string/school_info1"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:fontFamily="@font/alegreya_italic"
+                android:text="At S.R.S, the focus is on a holistic approach to
+education. We Endeavour to complement class
+room teaching with curricular activity, and balance
+the incurring mind with the healthy body, sports,
+outdoor activity / trips and stimulating pass
+times are an important part of the school's larger
+curricular."
+                android:padding="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FFFF"
+                android:fontFamily="@font/alegreya_italic"
+                android:textStyle="bold"
+                android:text="@string/school_info3"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFFF"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="MAP VIEW"
+                    android:textColor="#FFFF"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/map_image"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

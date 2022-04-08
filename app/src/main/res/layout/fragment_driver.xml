@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".fragments.DriverFragment">
+
+    <LinearLayout
+        android:id="@+id/dataNotFound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include layout="@layout/driver_not_found" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dataFound"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/headingTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Driver Details"
+            android:fontFamily="@font/alegreya_bold_italic"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/driverImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/driver" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/driverName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/alegreya_italic"
+                android:hint="Name"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/driverMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/alegreya_italic"
+                android:hint="Mobile No."
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/busRouteNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/alegreya_italic"
+                android:hint="Route No."
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/busNumberPlate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/alegreya_italic"
+                android:hint="Bus Number Plate(ex:- HR 46 _ _ _ _)"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
